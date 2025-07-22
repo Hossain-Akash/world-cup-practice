@@ -154,17 +154,17 @@ footer hr {
   max-width: 1220px;
   margin: 10px auto;
 }
-footer ul {
+.conditions ul {
   max-width: 1000px;
   margin: 0 auto;
   padding: 10px 0 100px;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
 }
-footer ul li {
+.conditions ul li {
   list-style: none;
 }
-footer li a {
+.conditions li a {
   text-decoration: none;
   color: rgb(185, 185, 185);
 }
@@ -191,7 +191,7 @@ footer li a {
   .upcoming-matches-right {
     grid-template-columns: repeat(2, 1fr);
   }
-  footer ul {
+  .conditions ul {
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
   }
@@ -212,7 +212,7 @@ footer li a {
   .upcoming-matches-right {
     grid-template-columns: 1fr;
   }
-  footer ul {
+  .conditions ul {
     grid-template-columns: 1fr;
     gap: 50px;
   }
